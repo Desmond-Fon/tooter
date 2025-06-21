@@ -1,4 +1,5 @@
 import img from '../../assets/tooter.jpg'
+import img2 from '../../assets/tooter2.jpg'
 import x from "../../assets/twitter.svg";
 import tg from "../../assets/tg.svg";
 import dex from "../../assets/dex.svg";
@@ -251,7 +252,7 @@ export default function TooterCoinWebsite() {
                       Your mascot image here
                     </p>
                   </div> */}
-                  <img src={img} alt="" />
+                  <img src={img2} className='object-contain' alt="" />
 
                   {/* Floating fart clouds */}
                   <div className="absolute top-8 right-12 text-2xl opacity-60 animate-bounce">
