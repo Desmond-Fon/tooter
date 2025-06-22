@@ -63,15 +63,6 @@ export default function TooterCoinWebsite() {
                 <span className="font-bold text-white">unapologetic</span>, and
                 the <span className="font-bold text-white">gassy</span>.
               </p>
-
-              {/* <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                <button className="bg-white text-black px-8 py-4 text-lg font-bold rounded-lg hover:bg-gray-200 transition-all transform hover:scale-105">
-                  Buy $TOOT
-                </button>
-                <button className="border-2 border-white text-white px-8 py-4 text-lg font-bold rounded-lg hover:bg-white hover:text-black transition-all">
-                  Whitepaper
-                </button>
-              </div> */}
             </div>
 
             {/* Image Placeholder */}
@@ -82,13 +73,6 @@ export default function TooterCoinWebsite() {
 
                 {/* Image container */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96 bg-gray-900 border-2 border-gray-700 rounded-2xl flex items-center justify-center overflow-hidden">
-                  {/* Placeholder content */}
-                  {/* <div className="text-center space-y-4">
-                    <div className="text-6xl">🚀</div>
-                    <p className="text-gray-500 text-sm">
-                      Your coin image/logo here
-                    </p>
-                  </div> */}
                   <img src={img} alt="" />
 
                   {/* Animated border */}
@@ -226,14 +210,6 @@ export default function TooterCoinWebsite() {
                 </div>
               </div>
 
-              {/* <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="bg-white text-black px-6 py-3 font-bold rounded-lg hover:bg-gray-200 transition-all">
-                  Follow Steve
-                </button>
-                <button className="border-2 border-white text-white px-6 py-3 font-bold rounded-lg hover:bg-white hover:text-black transition-all">
-                  Steve's Story
-                </button>
-              </div> */}
             </div>
 
             {/* Image Placeholder for Stinky Steve */}
@@ -244,14 +220,6 @@ export default function TooterCoinWebsite() {
 
                 {/* Main character container */}
                 <div className="relative w-96 h-96 bg-gradient-to-br from-gray-800 to-gray-900 border-4 border-white rounded-full flex items-center justify-center overflow-hidden">
-                  {/* Placeholder for Stinky Steve */}
-                  {/* <div className="text-center space-y-4">
-                    <div className="text-8xl">🐦</div>
-                    <p className="text-white font-bold text-lg">STINKY STEVE</p>
-                    <p className="text-gray-400 text-sm">
-                      Your mascot image here
-                    </p>
-                  </div> */}
                   <img src={img2} className='object-contain' alt="" />
 
                   {/* Floating fart clouds */}
