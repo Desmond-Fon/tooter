@@ -360,10 +360,10 @@ export default function TooterCoinWebsite() {
       <footer className="border-t border-gray-800 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="text-2xl font-bold mb-4">$TOOT</div>
-            <p className="text-gray-400 mb-6">
+            {/* <div className="text-2xl font-bold mb-4">$TOOT</div> */}
+            {/* <p className="text-gray-400 mb-6">
               The first fart-fueled social movement
-            </p>
+            </p> */}
             <div className="flex justify-center space-x-6">
               <a
                 href="#"
