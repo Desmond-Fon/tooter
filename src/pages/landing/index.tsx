@@ -196,7 +196,7 @@ export default function TooterCoinWebsite() {
                   A blue bird who tooted too hard and got banned from Twitter.
                 </p>
 
-                <p className="text-xl text-gray-200 leading-relaxed">
+                {/* <p className="text-xl text-gray-200 leading-relaxed">
                   Now, he's back —{" "}
                   <span className="font-bold text-white">on Solana</span> —
                   leading a gas-powered revolution.
@@ -206,7 +206,7 @@ export default function TooterCoinWebsite() {
                   <p className="text-xl font-bold text-center">
                     Every chart candle is a fart from Steve's soul.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
 
