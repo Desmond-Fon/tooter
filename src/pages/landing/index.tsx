@@ -1,5 +1,5 @@
-import img from '../../assets/tooter.jpg'
-import img2 from '../../assets/tooter2.jpg'
+import img from "../../assets/tooter.jpg";
+import img2 from "../../assets/tooter2.jpg";
 import x from "../../assets/twitter.svg";
 import tg from "../../assets/tg.svg";
 import dex from "../../assets/dex.svg";
@@ -11,18 +11,18 @@ export default function TooterCoinWebsite() {
       <nav className="border-b border-gray-800 bg-black/95 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <span className="text-2xl font-bold">$TOOT</span>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <img className='lg:w-12' src={x} alt="" />
-              <img className='lg:w-12' src={tg} alt="" />
-              <img className='lg:w-12' src={dex} alt="" />
-              <img className='lg:w-12' src={dax} alt="" />
-            </div>
+            </div> */}
             <button className="bg-white text-black px-4 py-2 rounded-md font-semibold hover:bg-gray-200 transition-colors">
               Buy Now
             </button>
+            <div className="flex space-x-4 lg:space-x-8">
+              <img className="w-8 lg:w-12" src={x} alt="" />
+              <img className="w-8 lg:w-12" src={tg} alt="" />
+              <img className="w-8 lg:w-12" src={dex} alt="" />
+              <img className="w-8 lg:w-12" src={dax} alt="" />
+            </div>
           </div>
         </div>
       </nav>
@@ -45,7 +45,7 @@ export default function TooterCoinWebsite() {
                 </p>
               </div>
 
-              <div className="space-y-4">
+              {/* <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <span className="text-3xl font-black">$TOOT</span>
                   <span className="text-gray-400">is not just a token.</span>
@@ -55,13 +55,12 @@ export default function TooterCoinWebsite() {
                   <p>A sound.</p>
                   <p>A smell.</p>
                 </div>
-              </div>
+              </div> */}
 
               <p className="text-xl text-gray-200 leading-relaxed">
                 Built for the{" "}
-                <span className="font-bold text-white">unhinged</span>, the{" "}
-                <span className="font-bold text-white">unapologetic</span>, and
-                the <span className="font-bold text-white">gassy</span>.
+                <span className="font-bold text-white">unhinged</span>
+                 {" "} and the <span className="font-bold text-white">gassy</span>.
               </p>
             </div>
 
@@ -129,9 +128,9 @@ export default function TooterCoinWebsite() {
                   silent rugs.
                 </p>
 
-                <p className="text-xl font-bold text-white">
+                {/* <p className="text-xl font-bold text-white">
                   We're not here to pump quietly — we're here to blow it up.
-                </p>
+                </p> */}
               </div>
             </div>
 
@@ -209,7 +208,6 @@ export default function TooterCoinWebsite() {
                   </p>
                 </div>
               </div>
-
             </div>
 
             {/* Image Placeholder for Stinky Steve */}
@@ -220,7 +218,7 @@ export default function TooterCoinWebsite() {
 
                 {/* Main character container */}
                 <div className="relative w-96 h-96 bg-gradient-to-br from-gray-800 to-gray-900 border-4 border-white rounded-full flex items-center justify-center overflow-hidden">
-                  <img src={img2} className='object-contain' alt="" />
+                  <img src={img2} className="object-contain" alt="" />
 
                   {/* Floating fart clouds */}
                   <div className="absolute top-8 right-12 text-2xl opacity-60 animate-bounce">

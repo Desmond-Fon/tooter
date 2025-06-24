@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: "Naughty Squirrel Shadowed";
-  src: url("./assets/font/Naughty Squirrel Shadowed Demo.otf") format("opentype");
+  src: url("./assets/font/Naughty Squirrel Shadowed Demo.otf")
+    format("opentype");
 }
 
 @font-face {
@@ -50,13 +51,12 @@
 
 @media (max-width: 768px) {
   .hero {
-      background-image: url("./assets/hero.jpg");
+    background-image: url("./assets/hero.jpg");
     height: 70vh;
-      background-attachment: scroll;
-        /* background-size: contain; */
+    background-attachment: scroll;
+    /* background-size: contain; */
   }
 }
-
 
 .sliding-text-box {
   overflow: hidden;
