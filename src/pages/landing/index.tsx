@@ -4,6 +4,7 @@ import x from "../../assets/twitter.svg";
 import tg from "../../assets/tg.svg";
 import dex from "../../assets/dex.svg";
 import dax from "../../assets/tools.svg";
+import { Link } from "react-router-dom";
 export default function TooterCoinWebsite() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -18,8 +19,20 @@ export default function TooterCoinWebsite() {
               Buy Now
             </button>
             <div className="flex space-x-4 lg:space-x-8">
-              <img className="w-8 lg:w-12" src={x} alt="" />
-              <img className="w-8 lg:w-12" src={tg} alt="" />
+              <Link
+                to={"https://x.com/tootercoin?t=f5RDIQFv-bi8rWD8BDr4bg&s=09"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="w-8 lg:w-12" src={x} alt="" />
+              </Link>
+              <Link
+                to={"https://t.me/tootercoin"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className="w-8 lg:w-12" src={tg} alt="" />
+              </Link>
               <img className="w-8 lg:w-12" src={dex} alt="" />
               <img className="w-8 lg:w-12" src={dax} alt="" />
             </div>
@@ -59,8 +72,8 @@ export default function TooterCoinWebsite() {
 
               <p className="text-xl text-gray-200 leading-relaxed">
                 Built for the{" "}
-                <span className="font-bold text-white">unhinged</span>
-                 {" "} and the <span className="font-bold text-white">gassy</span>.
+                <span className="font-bold text-white">unhinged</span> and the{" "}
+                <span className="font-bold text-white">gassy</span>.
               </p>
             </div>
 
